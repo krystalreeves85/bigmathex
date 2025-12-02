@@ -337,9 +337,9 @@
    * Return a new Big whose value is the value of this Big divided by the value of Big y, rounded,
    * if necessary, to a maximum of Big.DP decimal places using rounding mode Big.RM.
    */
-  const createBig = require('./dist/index.min.js')
+  // const createBig = require('./dist/index.min.js')
   P.div = function (y) {
-    createBig(y)
+    // createBig(y)
     var x = this,
       Big = x.constructor,
       a = x.c,                  // dividend
