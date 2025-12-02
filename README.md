@@ -112,50 +112,6 @@ x.s                                    // -1               sign
 
 For advanced usage, multiple Big number constructors can be created, each with an independent configuration.
 
-## 🧠 Minify
-
-To minify using, for example, npm and [terser](https://github.com/terser/terser)
-
-```bash
-$ npm install -g terser
-```
-
-```bash
-$ terser big.js -c -m -o big.min.js
-```
-
-## 🧪 Test 
-
-The *test* directory contains the test scripts for each Big number method.
-
-The tests can be run with Node.js or a browser.
-
-Run all the tests:
-
-```bash
-$ npm test
-```
-
-Test a single method:
-
-```bash
-$ node test/toFixed
-```
-
-For the browser, see *runner.html* and *test.html* in the *test/browser* directory.
-
-*big-vs-number.html* is a old application that enables some of the methods of bigmathex to be compared with those of JavaScript's Number type.
-
-## 📝 TypeScript
-
-The [DefinitelyTyped](https://github.com/borisyankov/DefinitelyTyped) project has a Typescript type definitions file for bigmathex.
-
-```bash
-$ npm install --save-dev @types/bigmathex
-```
-
-Any questions about the TypeScript type definitions file should be addressed to the DefinitelyTyped project.
-
 ## 📄 Licence
 
 [MIT](LICENCE.md)
